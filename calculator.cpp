@@ -4,7 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "test" << endl;
    double number1 = 0;             
    double number2 = 0;
    int choice = 0;
