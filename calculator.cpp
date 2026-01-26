@@ -8,8 +8,8 @@ int main()
    double number2 = 0;
    int choice = 0;
    bool quit = false;
-   
 
+   
        do
        {
            double addnum = 0;
