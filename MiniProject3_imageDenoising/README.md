@@ -15,7 +15,6 @@ The command line works as follows: denoise <input.txt> <output.txt> <filter (whe
 The program works/denoises by taking the average of the 8 numbers around the spike and then changing the spike to be that average which smooths out the image.
 
 
-=================================
 Here are some tests and results:
 =================================
 Small: 
@@ -37,7 +36,7 @@ output:
 50 50 49 54 59 65 61 55
 50 51 51 53 55 58 56 53
 
-=================================
+=====================================================
 Salt and pepper:
 input:
  10 10
@@ -65,7 +64,7 @@ output:
 135 135 130 122 114 113 118 127 138 147
 135 135 130 124 117 116 117 127 145 162
 
-=================================
+=====================================================
 edge:
 input: 
 5 5
@@ -83,7 +82,7 @@ output:
 10 10 10 9 8
 10 10 9 8 7
 
-=================================
+=====================================================
 
 For more information about testing, please refer to TESTING.md
 
