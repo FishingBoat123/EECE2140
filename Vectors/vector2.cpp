@@ -17,5 +17,4 @@ int main()
     cout << endl;
     sort(v.begin(), v.end());
     cout << "The sorted scores are: ";
-    
 }
