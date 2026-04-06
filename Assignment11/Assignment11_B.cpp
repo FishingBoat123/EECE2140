@@ -30,7 +30,7 @@ public:
             cout << "[" << curr->id << ": "
                  << curr->name << "] -> ";
             curr = curr->next.get();
-        }
+        }git 
         cout << "null" << endl;
     }
 
